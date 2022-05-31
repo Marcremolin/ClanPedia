@@ -68,13 +68,14 @@ header {
 #intro1container {
     grid-area: intro1container;
     padding-top: 10%;
-    padding-left: 10%;
+    padding-right: 40%;
     width: 70%;
 }
 
 #intro2container {
     grid-area: intro2container;
-    padding-left: 10%;
+    padding-top: 10%;
+    padding-left: 50%;
     width: 70%;
 }
 
@@ -84,9 +85,21 @@ header {
     width: 70%;
 }
 
-.phone{
- width: 70%;
- position: left auto;
+.phone{ 
+ 
+ width: 150%;
+ position: left;
  
 }
-
+.barbarian{
+    width: 100%;
+    position: left ;
+    left: 10px;
+    right: 10px;
+}
+.section3{
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center, center;
+    width: 100%;
+}
