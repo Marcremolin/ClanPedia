@@ -1,0 +1,92 @@
+font-face {
+    font-family: Supercell;
+    src: url(fonts/Supercell-magic-webfont.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    max-width: 50%;
+}
+
+li, a {
+    font-family: Supercell, sans-serif;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    opacity: 1;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+}
+
+.nav_link li a:hover {
+    color: goldenrod;
+}
+
+
+.section1{
+    padding-top: 1000px;
+    background-image:  url("Homeimages/BGHomepage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center, center;
+}
+.section2 {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 1/3 2/3 3/3;
+    grid-template-areas: 
+        "intro1container wizardcontainer"
+        "intro2container wizardcontainer"
+        "intro3container wizardcontainer"
+}
+
+#intro1container {
+    grid-area: intro1container;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 70%;
+}
+
+#intro2container {
+    grid-area: intro2container;
+    padding-left: 10%;
+    width: 70%;
+}
+
+#intro3container {
+    grid-area: intro3container;
+    padding-left: 10%;
+    width: 70%;
+}
+
+.phone{
+ width: 70%;
+ position: left auto;
+ 
+}
+
