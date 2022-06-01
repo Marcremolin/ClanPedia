@@ -71,6 +71,12 @@ header {
     padding-right: 40%;
     width: 70%;
 }
+#intro1{
+    font-family: Supercell, sans-serif;
+    padding-bottom: 10%;
+   
+
+}
 
 #intro2container {
     grid-area: intro2container;
@@ -87,8 +93,10 @@ header {
 
 .phone{ 
  
- width: 150%;
+ width: 200%;
+ height: 100%;
  position: left;
+ 
  
 }
 .barbarian{
@@ -100,6 +108,44 @@ header {
 .section3{
     background-size: cover;
     background-attachment: scroll;
-    background-position: center, center;
+    background-position: center, auto;
     width: 100%;
+}
+
+.footer-container{
+    background-color: black;
+    padding-bottom: 4rem;
+}
+
+.footer{
+    width: 80%;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around ;
+    
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+   
+}
+.footer-heading h2{
+    
+}
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.2rem;
+}
+
+
+.logo2{
+    height: fit-content;
+    
+}
+.footerlogopage{
+    width: 100px;
+    height: auto;
 }
