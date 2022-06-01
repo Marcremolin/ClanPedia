@@ -145,7 +145,7 @@ header {
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    padding-top: 5%;
+    padding-top: 3%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/image2.png");
     background-size: auto;
     background-repeat: no-repeat;
