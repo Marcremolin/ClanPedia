@@ -1,4 +1,4 @@
-font-face {
+@font-face {
     font-family: Supercell;
     src: url(fonts/Supercell-magic-webfont.ttf);
 }
@@ -73,7 +73,11 @@ header {
 }
 #intro1{
     font-family: Supercell, sans-serif;
-    padding-bottom: 10%;
+    left: 30pc;
+    right: 30pc;
+    text-align: center;
+    position: absolute;
+    font-size: 400%
    
 
 }
@@ -118,34 +122,53 @@ header {
 }
 
 .footer{
-    width: 80%;
     height: 20vh;
     background-color: black;
     color: white;
     display: flex;
-    justify-content:space-around ;
-    
+    grid-template-rows: 1/4 2/4 3/4 4/4;
+    grid-template-areas: 
+        "logoAndMotto explore connect cs"
+        "logoAndMotto explore social nl"
+        "dasd"
+        "asd"
 }
+    
+
 .footer-heading{
     display: flex;
     flex-direction: column;
+    
    
 }
-.footer-heading h2{
-    
-}
-.footer-heading a{
-    color: white;
-    text-decoration: none;
-    margin-bottom: 0.2rem;
-}
 
 
-.logo2{
+.logo2container{
+    grid-area:logo;
     height: fit-content;
     
 }
 .footerlogopage{
     width: 100px;
+    padding-right: 10%;
     height: auto;
+}
+
+.exploreContainer {
+    grid-area: explore;
+  
+}
+.ConnectContainer{
+    grid-area: connect;
+}
+.socialContainer {
+    grid-area: social;
+}
+
+.csContainer {
+    grid-area: cs;
+}
+
+.newsLetterContainer {
+    grid-area: nl;
 }
