@@ -329,6 +329,7 @@ footer {
     font-size: 15px;
     color: white;
     text-align: center;
+    font-style: italic;
     letter-spacing: 0.1em;
     line-height: 1.6;
 }
