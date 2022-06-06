@@ -320,8 +320,9 @@ footer {
     font-size: 17px;
     color: white;
     padding-top: 0;
+    padding-left: 0;
     list-style: none;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 #motto {
@@ -341,6 +342,12 @@ footer {
 
 #footerLogoContainer {
     text-align: center;
+}
+
+#socials {
+    width: 30%;
+    height: auto;
+    margin-top: 1%;
 }
 
 .footerElement2 {
