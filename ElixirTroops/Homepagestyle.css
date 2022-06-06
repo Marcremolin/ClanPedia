@@ -76,8 +76,8 @@ header {
 
     left: 30px;
     right: 30px;
-    padding-top: 15pc;
-    padding-left: 30pc;
+    padding-top: 10pc;
+    padding-left: 3pc;
     text-align: center;
     position: absolute;
     font-size: 200%;
@@ -98,8 +98,7 @@ header {
     position: absolute;
     padding: 10pc;
     padding-left: 50pc;
-    padding-top: 23pc;
-
+    padding-top: 19pc;
     text-align: justify;
 
     
