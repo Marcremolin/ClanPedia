@@ -79,9 +79,58 @@ header {
 
 
 
+/*Second section*/
+.Strategiessection2 {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 1/2 2/2;
+    grid-template-areas: 
+        "Strategies1container logoContainer2"
+        "Strategies2container wizardcontainer"
+        
+}
 
+/*middle div*/
 
+#Strategies1container {
+    font-family: Supercell, sans-serif;
+    grid-area: intro1container;
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 70%;
+}
+#Strategies2container {
+    grid-area: intro2container;
+    padding-left: 10%;
+    width: 70%;
+    
 
+}
+#Strategiesintro2 {
+    font-family: Supercell, sans-serif;
+    text-align: justify;
+   
+}
+#logoContainer2{
+    grid-area: logoContainer2;
+  
+    
+}
+#midlogo{
+    
+ display: inline;
+    
+    
+   
+    
+} 
+#bottomBG{
+  
+    
+   
+
+}
 
 
 
