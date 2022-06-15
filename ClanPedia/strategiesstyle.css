@@ -130,8 +130,7 @@ header {
     
 } 
 section{
-    background-image: url(StrategiesImages/bottomBG2.pngs);
-    
+    background-image: url(bottomBG2.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
