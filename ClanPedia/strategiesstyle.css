@@ -47,7 +47,7 @@ header {
 }
 /*Backgroundimage*/
 .section1{
-    padding-top: 1000px;
+  
     background-image:  url("StrategiesImages/BGStrategies.png");
   
     background-size: cover;
@@ -58,23 +58,26 @@ header {
 /*BGimage Description*/
 #introtext1{
    font-family: Supercell, sans-serif;
+   -webkit-text-stroke: 0.5px black;
    font-size: 5pc;
    text-align:left;
    padding-left: 1ch;
-   padding-bottom: 5%;
+   padding-bottom: 20px;
+   padding-top: 30pc;
    color: white;
 }
 
 
 #Strategiesquote{
-   font-family: 'Montserrat', sans-serif;
-   font-size: 25px;
+    font-family: Verdana, sans-serif;
+   -webkit-text-stroke: 1px black;
+   font-size: 40px;
    text-align: justify;
    letter-spacing: 0.1em;
    line-height: 1.6;
    color: white;
-   padding-left: 50px;
-   padding-bottom: 20pc;
+   padding-left: 60px;
+   padding-bottom: 10pc;
 }
 
 
@@ -88,6 +91,7 @@ header {
     grid-template-areas: 
         "Strategies1container logoContainer2"
         "Strategies2container wizardcontainer"
+     
         
 }
 
@@ -96,42 +100,54 @@ header {
 #Strategies1container {
     font-family: Supercell, sans-serif;
     grid-area: intro1container;
-    padding-top: 5%;
     padding-left: 10%;
     width: 70%;
+    position: relative;
+    bottom: 22pc;
+    font-size: 4pc;
+    
+  
 }
 #Strategies2container {
     grid-area: intro2container;
     padding-left: 10%;
-    width: 70%;
+    position: relative;
+    bottom:15pc;
+    font-size: 15pt;
+ 
     
-
+   
 }
 #Strategiesintro2 {
     font-family: Supercell, sans-serif;
     text-align: justify;
-   
-}
-#logoContainer2{
-    grid-area: logoContainer2;
-  
     
 }
-#midlogo{
-    
- display: inline;
-    
-    
-   
+
+#logocontainer2{
+    padding-left: 66pc; 
+    padding-top: 10pc;
     
 } 
-#bottomBG{
+section{
+    background-image: url(StrategiesImages/bottomBG2.pngs);
+    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 111pc;
+    height: 120pc;
+  
   
     
-   
 
 }
 
+/*Youtube embedded*/
+#iframe{
+
+}
 
 
 
