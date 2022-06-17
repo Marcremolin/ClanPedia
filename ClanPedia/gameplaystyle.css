@@ -47,8 +47,8 @@ header {
 }
 /*Backgroundimage*/
 .section1{
-    padding-top: 500px;
-    background-image:  url("StrategiesImages/BGStrategies.png");
+    padding-top: 300px;
+    background-image:  url("GameplayImages/gameplay\ bg.png");
     background-size: 1728px 792px;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -60,12 +60,11 @@ header {
    font-size: 5pc;
    text-align:left;
    padding-left: 1ch;
-   padding-bottom: 5%;
    color: white;
 }
 
 
-#Strategiesquote{
+#Gameplayquote{
    font-family: 'Montserrat', sans-serif;
    font-size: 25px;
    text-align: justify;
@@ -79,57 +78,44 @@ header {
 
 
 /*Second section*/
-.Strategiessection2 {
-    display: grid;
-    background-color: white;
-    grid-template-columns: 60% auto;
-    grid-template-rows: 1/2 2/2;
-    grid-template-areas: 
-        "Strategies1container logoContainer2"
-        "Strategies2container wizardcontainer"
-        
+/*Backgroundimage*/
+.section2 {
+    padding-top: 100px;
+    background-image: url("GameplayImages/bottombg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center, center;
 }
 
-/*middle div*/
-
-#Strategies1container {
+#introtext2{
     font-family: Supercell, sans-serif;
-    grid-area: intro1container;
-    padding-top: 5%;
-    padding-left: 10%;
-    width: 70%;
+    font-size: 2pc;
+    text-align: center;
+    padding-left: 1ch;
+    color: white;
+    position: relative;
 }
-#Strategies2container {
-    grid-area: intro2container;
-    padding-left: 10%;
-    width: 70%;
-    
 
-}
-#Strategiesintro2 {
+.homevillage{
+    height: 250px;
+    }
+
+
+ #introtext3{
     font-family: Supercell, sans-serif;
-    text-align: justify;
-   
+    font-size: 2pc;
+    text-align:center;
+    padding-left: 1ch;
+    color: white;
+ 
 }
-#logoContainer2{
-    grid-area: logoContainer2;
-  
-    
-}
-#midlogo{
-    
- display: inline;
-    
-    
-   
-    
-} 
-#bottomBG{
-  
-    
-   
 
+
+.builderbase{
+    height: 250px;
 }
+
 
 
 
@@ -137,7 +123,7 @@ header {
 
 /*FOOTER*/
 footer {
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
 .footerElement1{
