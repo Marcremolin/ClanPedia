@@ -125,17 +125,17 @@ header {
 }
 
 #logocontainer2{
-    padding-left: 66pc; 
-    padding-top: 10pc;
+    padding-left: 40pc; 
+    padding-top: 15pc;
     
 } 
 section{
-    background-image: url(bottomBG2.png);
+    background-image: url("StrategiesImages/bottomBG2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    width: 111pc;
+    
     height: 120pc;
   
   
