@@ -24,12 +24,13 @@ li, a {
     padding-right: 15px;
 }
 header {
+
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    position: fixed;
+    position: absolute;
     opacity: 1;
 }
 
@@ -144,10 +145,18 @@ section{
 }
 
 /*Youtube embedded*/
-#iframe{
-
+.iframe1{
+ top: 170px;
+ position: relative;
+ padding-left: 10pc;
+ justify-content: space-between;
+ padding-top: 10pc;
+ height: 30pc;
 }
-
+.Vid1{
+    font-family: Supercell, sans-serif;
+    font-size: 13px;  
+}
 
 
 
