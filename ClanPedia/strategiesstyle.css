@@ -154,10 +154,11 @@ section{
  height: 30pc;
 }
 .Vid1{
+  
     font-family: Supercell, sans-serif;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-size: 50px; 
-    padding-left: 245pt;
+    padding-left: 450pt;
     padding-top: 11pc;
 
 }
