@@ -146,16 +146,20 @@ section{
 
 /*Youtube embedded*/
 .iframe1{
- top: 170px;
+ top: 140px;
  position: relative;
  padding-left: 10pc;
  justify-content: space-between;
- padding-top: 10pc;
+ padding-top: 3pc;
  height: 30pc;
 }
 .Vid1{
     font-family: Supercell, sans-serif;
-    font-size: 13px;  
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-size: 50px; 
+    padding-left: 245pt;
+    padding-top: 11pc;
+
 }
 
 
