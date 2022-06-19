@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    position: absolute;
+    position: fixed;
     opacity: 1;
 }
 
@@ -50,7 +50,6 @@ header {
 .section1{
   
     background-image:  url("StrategiesImages/BGStrategies.png");
-  
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -126,10 +125,15 @@ header {
 }
 
 #logocontainer2{
-    padding-left: 40pc; 
-    padding-top: 15pc;
+    padding-left: 60pc; 
+    padding-top: 5pc;
+}
+
+   
+   
+ 
     
-} 
+
 section{
     background-image: url("StrategiesImages/bottomBG2.jpg");
     background-repeat: no-repeat;
