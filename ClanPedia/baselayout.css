@@ -4,35 +4,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-/*Navigation Bar*/
-.logo {
-    max-width: 50%;
-}
 
 * {
     box-sizing: border-box;
@@ -61,6 +32,7 @@ header {
     background-color: black;
     position: fixed;
     opacity: 1;
+    z-index: 2;
 }
 
 .nav_link {
@@ -78,8 +50,8 @@ header {
 /*First Section*/
 .section1 {
     padding-top: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("SpellsImages/image1.png");
-    background-size: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("Baselayout/bgmain.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center, center;
@@ -115,57 +87,50 @@ header {
 /*Second section*/
 .section2 {
     display: grid;
-    background-color: white;
-    grid-template-columns: auto 60%;
-    grid-template-rows: 1/3 2/3 3/3;
-    grid-template-areas: 
-        "witchcontainer intro1container"
-        "witchcontainer intro2container"
-        "witchcontainer intro3container"
+    padding-bottom: 2%;
 }
 
 #intro1container {
     grid-area: intro1container;
     padding-top: 10%;
-    padding-left: 10%;
     width: 70%;
 }
 
 #intro2container {
     grid-area: intro2container;
-    padding-left: 10%;
-    width: 70%;
+    width: 20%;
 }
 
-#intro3container {
-    grid-area: intro3container;
-    padding-left: 10%;
-    width: 70%;
-}
-
-#witchcontainer {
-    grid-area: witchcontainer;
+#Villagercontainer {
+    grid-area: wizardcontainer;
 }
 
 #intro1 {
     font-family: Supercell, sans-serif;
     text-align: justify;
+    position: absolute;
+    top:56pc ;
+    left: 48pc;
+    
 }
 
 #intro2 {
     font-family: Supercell, sans-serif;
-    text-align: justify;
+    text-align: center;
+    position: absolute;
+    top: 60pc;
+    left: 44pc;
+ 
+
 }
 
-#intro3 {
-    font-family: Supercell, sans-serif;
-    text-align: justify;
-}
 
-#witch {
-    width: 80%;
+#boxRec {
+    left: 20pc;
+    width: 40%;
     height: auto;
-    padding-right: 0;
+    position: relative;
+    margin-top: 5pc;
 }
 
 /*Third section*/
@@ -175,79 +140,48 @@ header {
     width: 100%;
     flex-direction: column;
     padding-top: 3%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("SpellsImages/image2.png");
-    background-size: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Baselayout/Bgsection3.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center, center;
 }
 
-#navContainer {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-
-}
-
-#nav {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-
-.nav_link2 li {
-    display: inline;
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-}
-
-.nav_link2 li a:hover {
-    color: black;
-    background: rgba(255,255,255, 0.8);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 20px;
-}
-
-#scrollerbg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    border-radius: 25px;
-    margin: 25px;
-}
-
-.scroller {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 24%;
-    gap: 1rem;
-    overflow-x: auto;
-}
-
-.troops {
-    display: grid;
-    grid-template-rows: min-content;
-    padding: 1rem;
-}
-
-.troops > img {
-    inline-size: 100%;
-    width: 50%;
-    height: auto;
-    aspect-ratio: 5/5;
-    object-fit: contain;
-}
-
-.troopName {
-    font-family: Supercell, sans-serif;
+.topcaption{
+    font-family: Supercell, sans-serif;;
     color: white;
-}
+    text-align: center;
+    margin-bottom: 3pc;
 
-.troopDesc {
-    font-family: 'Montserrat', sans-serif;
+}
+.base{
+  align-items: center;
+  position: relative;
+  
+  bottom: 1pc;
+  left: 20pc;
+}
+.middlecaption{
+    font-family: Supercell, sans-serif;;
     color: white;
+    text-align: center;
+    margin-bottom: 3pc;
+}
+.War{
+    position: relative;
+    left: 20pc;
+    margin-bottom: 1pc;
+}
+.bottomcaption{
+    font-family: Supercell, sans-serif;;
+    color: white;
+    text-align: center;
+    margin-bottom: 3pc;
+}
+.build{
+    position: relative;
+    left: 20pc;
+    margin-bottom: 1pc;
 }
 
 /*FOOTER*/

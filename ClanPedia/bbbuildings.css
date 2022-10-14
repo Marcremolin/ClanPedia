@@ -4,35 +4,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-/*Navigation Bar*/
-.logo {
-    max-width: 50%;
-}
 
 * {
     box-sizing: border-box;
@@ -78,8 +49,8 @@ header {
 /*First Section*/
 .section1 {
     padding-top: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("SpellsImages/image1.png");
-    background-size: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("BuilderBase\ Buildings/bbbuildings1.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center, center;
@@ -116,12 +87,11 @@ header {
 .section2 {
     display: grid;
     background-color: white;
-    grid-template-columns: auto 60%;
+    grid-template-columns: 60% auto;
     grid-template-rows: 1/3 2/3 3/3;
     grid-template-areas: 
-        "witchcontainer intro1container"
-        "witchcontainer intro2container"
-        "witchcontainer intro3container"
+        "buildercontainer intro1container"
+        "buildercontainer intro2container"
 }
 
 #intro1container {
@@ -137,14 +107,8 @@ header {
     width: 70%;
 }
 
-#intro3container {
-    grid-area: intro3container;
-    padding-left: 10%;
-    width: 70%;
-}
-
-#witchcontainer {
-    grid-area: witchcontainer;
+#buildercontainer {
+    grid-area: buildercontainer;
 }
 
 #intro1 {
@@ -162,7 +126,7 @@ header {
     text-align: justify;
 }
 
-#witch {
+#builder {
     width: 80%;
     height: auto;
     padding-right: 0;
@@ -171,12 +135,12 @@ header {
 /*Third section*/
 .section3 {
     display: flex;
-    justify-content: center;
+
     width: 100%;
     flex-direction: column;
     padding-top: 3%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("SpellsImages/image2.png");
-    background-size: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("BuilderBase\ Buildings/bbb2.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center, center;
@@ -199,10 +163,24 @@ header {
     display: inline;
     text-align: center;
     width: 100%;
+}
+
+.nav_link2 > li a{
+    justify-content: center;
     font-size: 30px;
 }
 
 .nav_link2 li a:hover {
+    color: black;
+    background: rgba(255,255,255, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+#currentPage a {
     color: black;
     background: rgba(255,255,255, 0.8);
     padding-left: 20px;
